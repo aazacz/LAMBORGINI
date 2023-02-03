@@ -1,0 +1,73 @@
+
+.main_header{
+    position: fixed;
+}
+.navbar{
+    background-color:#181818;
+   
+}
+.navbar-nav .nav-link{
+    color: white;
+}
+.navbar-toggler-icon{
+    color: white;
+
+}
+ .animated-text h3 {
+    color: #4e9eff;
+    font-size: 3em;
+    font-weight: 700;
+    line-height: 70px;
+    letter-spacing: 1px;
+}
+
+.carousel-indicators button{
+z-index: 10;
+}
+
+
+#navbarNavDropdown{
+margin-left:auto;
+}
+
+
+.secnd{
+margin-left: 200px;
+}
+
+.secnd li{
+
+color: white;
+text-decoration: none;
+list-style: none;
+}
+
+
+.dropdown:hover .dropdown-menu{
+    display: block;
+}
+
+
+@media (max_width:700px){
+.row .page1{
+    min-height: 30vh;
+}
+}
+
+.carousel-item {
+    height: 600px;
+  }
+  
+  .carousel-item img {
+      position: absolute;
+      top: 0;
+      left: 0;
+      height: 6 00px;
+  }
+
+  .box{
+    width: 50px;
+    height: 100p;
+    z-index: 888;
+    background-color: #1777ec;
+  }
